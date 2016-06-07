@@ -55,11 +55,10 @@
 ```
 	lines(datosrango, datosnorm)
 ```
-
-La curva con la función de densidad teórica calculada no aparece en la gráfica. El motivo es que los valores del histograma son demasiado altos (de 0 a 2.000) respecto a los valores que se representan en la línea (de 0 a 0,4).
-
+La curva con la función de densidad teórica calculada no aparece en la gráfica. El motivo es que el eje Y del histpgrama representa frecuencia, y sus valores son demasiado altos (de 0 a 2.000) respecto a los valores que se representan en la curva de densidad teórica calculada (de 0 a 0,4).
 
 #### Ver el parámetro probability de la función hist y volver a generar el histograma cambiando su valor. ¿Se aproxima ahora a la función de densidad teórica?.
+Añadiendo el parámetro _probability=T_ o el parámetro _freq=F_, el eje Y pasa a mostrar valores de densidad, de modo que ahora sí puede verse la curva de densidad teórica calculada.
 
 ```
 	hist(datos, probability=T)
