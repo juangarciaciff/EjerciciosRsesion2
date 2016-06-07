@@ -56,7 +56,7 @@
 	lines(datosrango, datosnorm)
 ```
 
-La curva con la función de densidad teórica calculada no aparece en la gráfica. El motivo es que los valores del histograma son demasiado altos respecto a los valores que se representan en la línea.
+La curva con la función de densidad teórica calculada no aparece en la gráfica. El motivo es que los valores del histograma son demasiado altos (de 0 a 2.000) respecto a los valores que se representan en la línea (de 0 a 0,4).
 
 
 #### Ver el parámetro probability de la función hist y volver a generar el histograma cambiando su valor. ¿Se aproxima ahora a la función de densidad teórica?.
